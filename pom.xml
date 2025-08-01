@@ -33,7 +33,7 @@
         </configuration>
       </plugin>
 
-      <!-- Add Main-Class to manifest -->
+      <!-- Add Main-Class to manifest for Docker to run -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -41,7 +41,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>com.example.helloworld.App</mainClass>
+              <mainClass>com.example.App</mainClass>
             </manifest>
           </archive>
         </configuration>
