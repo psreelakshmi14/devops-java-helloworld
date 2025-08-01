@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/psreelakshmi14/java-maven-junit-helloworld.git'
+        git 'https://github.com/psreelakshmi14/devops-java-helloworld.git'
       }
     }
 
