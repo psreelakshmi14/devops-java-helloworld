@@ -2,12 +2,6 @@ pipeline {
   agent any
 
   stages {
-    stage('Clone') {
-      steps {
-        git 'https://github.com/psreelakshmi14/devops-java-helloworld.git'
-      }
-    }
-
     stage('Build') {
       steps {
         sh 'mvn clean package'
@@ -33,4 +27,3 @@ pipeline {
     }
   }
 }
-
