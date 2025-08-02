@@ -33,7 +33,7 @@
         </configuration>
       </plugin>
 
-      <!-- Add Main-Class to manifest for Docker to run -->
+      <!-- Add Main-Class to manifest for Docker -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
