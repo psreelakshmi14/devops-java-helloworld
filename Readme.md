@@ -3,7 +3,7 @@ The project is organized to follow Maven’s standard directory layout:
 
 src/main/java/com/example/App.java: Main application source (Hello World).
 
-src/test/java/com/example/AppTest.java: Unit test for the application.
+
 
 
 src/test/java/com/example/AppTest.java: Unit test for the application.
